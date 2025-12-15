@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+requests
+pytest
+httpx
+python-dotenv
+sqlmodel
+sqlalchemy
+pillow

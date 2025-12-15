@@ -1,0 +1,4 @@
+GET /api/v1/playlists
+
+Status: 200
+[]

@@ -1,0 +1,4 @@
+POST /api/v1/playlists (no key)
+
+Status: 403
+{"detail":"Could not validate credentials"}

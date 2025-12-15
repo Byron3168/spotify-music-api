@@ -1,0 +1,15 @@
+GET /api/v1/search?q=daft+punk
+
+Status: 200
+{
+  "query": "daft punk",
+  "results": [
+    {
+      "id": "mock1",
+      "name": "daft punk (demo)",
+      "artists": [
+        "Demo Artist"
+      ]
+    }
+  ]
+}

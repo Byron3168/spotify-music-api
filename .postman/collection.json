@@ -1,0 +1,29 @@
+{
+  "info": {
+    "name": "Music Discovery API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "List Playlists",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/v1/playlists"
+      }
+    },
+    {
+      "name": "Create Playlist",
+      "request": {
+        "method": "POST",
+        "header": [{"key": "X-API-KEY", "value": "{{apiKey}}"}, {"key":"Content-Type","value":"application/json"}],
+        "url": "{{baseUrl}}/api/v1/playlists",
+        "body": {"mode": "raw", "raw": "{\"name\":\"My List\",\"tracks\":[]}"}
+      }
+    },
+    {
+      "name": "Search",
+      "request": {"method": "GET", "url": "{{baseUrl}}/api/v1/search?q=daft+punk"}
+    }
+  ],
+  "variable": [{"key":"baseUrl","value":"http://localhost:8000"},{"key":"apiKey","value":"demo_api_key"}]
+}
