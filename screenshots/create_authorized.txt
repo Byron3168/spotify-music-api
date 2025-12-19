@@ -1,0 +1,9 @@
+POST /api/v1/playlists (with key)
+
+Status: 201
+{
+  "name": "Demo",
+  "description": null,
+  "id": "2f4d2ee6-f630-49bb-b7a1-5f9910f44819",
+  "tracks": []
+}
